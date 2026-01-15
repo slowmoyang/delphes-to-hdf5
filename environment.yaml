@@ -1,0 +1,16 @@
+name: delphes-to-hdf5
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - cxx-compiler
+  - clang-format
+  - root
+  - delphes=3.5.0
+  - meson
+  - just
+  - pkg-config
+  - cmake
+  - hdf5
+  - highfive
+  - h5py
