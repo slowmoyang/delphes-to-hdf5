@@ -308,7 +308,6 @@ matchPartonToJet(const std::vector<const GenParticle*> parton_vec,
   return parton_jet_idx;
 }
 
-
 // --------------------------------------------------------------------------
 // Function: IsDescendantOf
 // Checks if 'particle' comes from 'ancestor_candidate' using a const vector.
